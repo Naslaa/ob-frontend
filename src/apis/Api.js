@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const Api = axios.create({
-    baseURL:'http://localhost:5000',
+    baseURL:'https://back-vdpy.onrender.com',
     withCredentials: true,
     headers: {
         'Content-type':'multipart/form-data',
